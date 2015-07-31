@@ -7,7 +7,7 @@ rails  version: Rails 4.2.3
 other  libxml2 や libxsltはインストール済み
 
 
-### メッセージの内容
+#### メッセージの内容
 checking if the C compiler accepts ... yes
 checking if the C compiler accepts -Wno-error=unused-command-line-argument-hard-error-in-future... no
 Building nokogiri using system libraries.
