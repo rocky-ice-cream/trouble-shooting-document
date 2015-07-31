@@ -77,7 +77,7 @@ An error occurred while installing nokogiri (1.6.6.2), and Bundler cannot contin
 Make sure that `gem install nokogiri -v '1.6.6.2'` succeeds before bundling.
 Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
 
-# 対処 nokogiriのinclude先を変更する（xcode commandlineを使用）
+##### 対処 nokogiriのinclude先を変更する（xcode commandlineを使用）
 bundle config build.nokogiri --with-xml2-include=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/include/libxml2 --use-system-libraries
 
 
@@ -86,5 +86,5 @@ bundle config build.nokogiri --with-xml2-include=/Applications/Xcode.app/Content
 
 /Users/XXX/.rbenv/versions/2.2.2/lib/ruby/site_ruby/2.2.0/rubygems/dependency.rb:315:in `to_specs': Could not find 'nokogiri' (>= 1.5.9) among 108 total gem(s) (Gem::LoadError)
 
-# 対処 gem install railtiesを行うと実行できるようになった
+##### 対処 gem install railtiesを行うと実行できるようになった
 
